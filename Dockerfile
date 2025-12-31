@@ -39,4 +39,4 @@ rm -rf node_modules/ && NODE_ENV=production npm install --legacy-peer-deps
 ENV DOCKER=1
 
 # Define default command.
-CMD ["luminati", "--help"]
+CMD ["luminati"]
